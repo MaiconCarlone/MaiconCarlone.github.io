@@ -86,7 +86,7 @@ const Table = {
 };
 
 // Server Link
-   var UrlPath      = Conf.L + ":" + Conf.P;
+   var UrlPath      = Conf.B + ":" + Conf.P;
    var JsonPayload  = "http://" + UrlPath + "/JsonPayload";
    var Greeting     = "http://" + UrlPath + "/Greeting";
    var GET          = "http://" + UrlPath + "/GET";
