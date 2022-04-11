@@ -1,0 +1,259 @@
+#CoreDiv {
+    width: 95%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+body {
+    background: rgb(241,243,247);
+}
+
+.BoxOne {
+    font-size: 0.7em;
+    font-family: 'Fira Mono', monospace;
+    color: rgb(70,70,70);
+    background-color: white;
+    padding: 0.8em;
+    margin: 0.9em;
+    border-style: solid;
+    border-radius: 0.8em;
+    border-width: 0.15em;
+    border-color: rgba(241,243,247,0.2);
+    box-shadow: 0 3px 10px rgb(0 0 0 / 0.2);
+}
+
+canvas{
+    margin-top: 2.5em;
+    margin-bottom: 2.5em;
+    width: 100%;
+    height: 100%;
+    display: block;
+    justify-content: center;
+    align-items: center;
+}
+
+table {
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: left;
+}
+
+td {
+    padding-top: 0.5em;
+    padding-bottom: 0.5em;
+}
+
+tr:nth-child(even) {
+  background-color:  rgba(70,70,70,0.2);
+}
+
+.rcolumn  {
+    height: auto;
+    margin-bottom: auto;
+}
+
+.row {
+    display: flex;
+    height: 100%;
+}
+
+.row h3{
+    margin-bottom: auto;
+    margin-top: auto;
+    margin-left: 2em;
+}
+
+.Mrow {
+    display: flex;
+    height: flex;
+}
+
+
+.Mcolumn {
+    flex: 25%;
+    
+}
+
+.InRow2 {
+    display: flex;
+    height: 100%;
+    width: 100%;
+}
+
+.InColumn2 input{
+    width: 100%;
+    border-style: solid;
+    border-radius: 0.5em;
+    border-width: 0.15em;
+    border-color: rgba(70,70,70,0.2);
+}
+
+.InColumn2 input:focus {
+    outline:solid 0.2em rgba(153, 51, 51,0.9);
+}
+
+.InColumn2 {
+    flex: 70%;
+    margin-bottom: auto;
+    margin-top: auto;
+    margin-left: auto;
+    margin-right: 2em;
+}
+
+.Inp {
+    font-size: 1.1em;
+    flex: 30%;
+    text-align: center;
+    margin-bottom: auto;
+    margin-top: auto;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+
+.InColumn22 p{
+    width: 100%;
+    flex:30%;
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.InColumn22 {
+    height: flex;
+    width: flex;
+    flex: 50%;
+    margin-bottom: auto;
+    margin-top: auto;
+}
+
+.InColumn22 input{
+    width: 100%;
+    border-style: solid;
+    border-radius: 0.5em;
+    border-width: 0.15em;
+    border-color: rgba(70,70,70,0.2);
+}
+
+.InColumn22 input:focus {
+    outline:solid 0.2em rgba(153, 51, 51,0.9);
+}
+
+
+.Halfcolumn .BoxOne{
+    padding: 1%;
+    padding-right: 3.5em;
+}
+
+.Halfcolumn {
+    flex: 50%;
+}
+
+
+.Mcolumn .BoxOne {
+    height: flex;
+    height: 50%;
+}
+
+.lcolumnl1 {
+    height: flex;
+    flex: 50%;    
+}
+
+.rcolumnl1 {
+    height: flex;
+    flex: 50%;
+}
+
+.lcolumn {
+    margin-bottom: auto;
+    flex: 40%;    
+}
+
+.rcolumn {
+    height: flex;
+    flex: 60%;
+}
+
+.InRow {
+    display: flex;
+    height: flex;
+}
+
+.InColumn {
+    height: flex;
+    flex: 33.33%;    
+}
+
+.InColumn input{
+    width: 80%;
+    border-style: solid;
+    border-radius: 0.5em;
+    border-width: 0.15em;
+    border-color: rgba(70,70,70,0.2);
+}
+
+.InColumn input:focus {
+    outline:solid 0.2em rgba(153, 51, 51,0.9);
+}
+
+.InColumn p{
+    width: 80%;
+    margin-top: 0.4em;
+    margin-bottom: 0.4em;
+    display: inline-block;
+    vertical-align: middle;
+}
+
+input[type="file"] {
+    display: none;
+}
+
+.LabelD2 {
+    height: 100%;
+    width: 100%;
+    display: flex;
+}
+
+label {
+    font-size: 1.1em;
+    font-family: 'Fira Mono', monospace;
+    padding: auto;
+    background-color: white;
+    text-align: center;
+    display: block;
+    cursor: pointer;
+    margin-bottom: auto;
+    margin-top: auto;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+label:hover{
+    font-weight: 600;
+}
+
+.ButtonR{
+    margin: 0em;
+    padding: 0.3em;
+    background-color: white;
+    border: none;
+    font-family: 'Fira Mono', monospace;
+    width: 100%;
+    height: 100%;
+    cursor: pointer;
+    color: rgb(70,70,70);
+}
+
+.ButtonR:focus{
+    outline:none;
+}
+
+.ButtonR:hover{
+    font-weight: 600;
+}
+
+:hover{
+    color: rgba(153, 51, 51,0.9);
+}
