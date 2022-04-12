@@ -44,14 +44,6 @@ const Alert = {
     Error   : 'rgba(153, 51, 51,0.2)',
 };
 
-const Conf = {
-    L       : '127.0.0.1',
-    S       : '144.22.136.159',
-    B       : '144.22.218.188',
-    E       : 'NaN',
-    P       : '8000'
-};
-
 const NoTes = {
     N1       : 'Input - Variables',
     N2       : 'Input - Constants',
@@ -85,11 +77,23 @@ const Table = {
     L2      : ['X Exp.','Y Exp.','Y(P)','Y(C.I.-Ub)','Y(C.I.-Ul)'],
 };
 
+const Conf = {
+    L       : '127.0.0.1',
+    S       : '144.22.136.159',
+    B1      : '144.22.218.188',
+    B2      : 'www.carlonem.tk',
+    E       : 'NaN',
+    P1      : ':8000',
+    P2      : '',
+    H1      : 'http://',
+    H2      : 'https://',
+};
+
 // Server Link
-   var UrlPath      = Conf.B + ":" + Conf.P;
-   var JsonPayload  = "http://" + UrlPath + "/JsonPayload";
-   var Greeting     = "http://" + UrlPath + "/Greeting";
-   var GET          = "http://" + UrlPath + "/GET";
+   var UrlPath      = Conf.H2 + Conf.B2 + Conf.P2;
+   var JsonPayload  = UrlPath + "/JsonPayload";
+   var Greeting     = UrlPath + "/Greeting";
+   var GET          = UrlPath + "/GET";
 
 // Acumuladores:
    var DataHolder   = {};
